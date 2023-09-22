@@ -1,0 +1,12 @@
+name = "bun_5d1"
+main = "src/index.ts"
+compatibility_date = "2023-09-01"
+node_compat = true
+
+[vars]
+API_KEY = "123"
+
+[[ d1_databases ]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "my-d1"
+database_id = ""

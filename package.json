@@ -1,0 +1,19 @@
+{
+  "name": "bun_5d1",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230914.0",
+    "better-sqlite3": "^8.6.0",
+    "bun-types": "latest",
+    "wrangler": "^3.9.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish",
+    "test": "vitest"
+  }
+}
