@@ -15,5 +15,8 @@
     "start": "wrangler dev",
     "deploy": "wrangler publish",
     "test": "vitest"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
   }
 }
